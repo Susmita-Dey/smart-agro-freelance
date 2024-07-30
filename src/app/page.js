@@ -15,15 +15,15 @@ export default function Home() {
   return (
     <>
       <Header />
-      <HeroSection/>
-      <Introduction/>
+      <HeroSection />
+      <Introduction />
       <PopularFood />
-      <AgricultureVideoComponent/>
-      <AgricultureComponent/>
+      <AgricultureVideoComponent />
+      <AgricultureComponent />
       <NewsSection />
       <ContactSection />
       <TestimonialSection />
-      <Footer/>
+      <Footer />
     </>
   );
 }
