@@ -11,30 +11,28 @@ export default function AgricultureHero() {
       <div className="flex flex-col justify-center p-8 bg-[#6ba36b] w-full md:w-1/2">
         <div className="flex items-center mb-6">
           <img src="/placeholder.svg" alt="Logo" className="w-12 h-12 mr-4" />
-          <span className="text-white text-sm">MODERN AGRICULTURE</span>
+          <span className=" text-sm">MODERN AGRICULTURE</span>
         </div>
-        <h1 className="text-white text-4xl font-bold mb-8">
+        <h1 className=" text-4xl font-bold mb-8">
           Providing High Quality Products
         </h1>
         <div className="flex items-start mb-6">
-          <CropIcon className="w-12 h-12 text-white mr-4" />
+          <CropIcon className="w-12 h-12  mr-4" />
           <div>
-            <h2 className="text-white text-xl font-medium mb-2">
+            <h2 className=" text-xl font-medium mb-2">
               Our Agriculture Growth
             </h2>
-            <p className="text-white text-sm">
+            <p className=" text-sm">
               Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus
               arcu. Metus elit auctor
             </p>
           </div>
         </div>
         <div className="flex items-start">
-          <SaladIcon className="w-12 h-12 text-white mr-4" />
+          <SaladIcon className="w-12 h-12  mr-4" />
           <div>
-            <h2 className="text-white text-xl font-medium mb-2">
-              Making Healthy Foods
-            </h2>
-            <p className="text-white text-sm">
+            <h2 className=" text-xl font-medium mb-2">Making Healthy Foods</h2>
+            <p className=" text-sm">
               Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus
               arcu. Metus elit auctor interdum scelerisque
             </p>

@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Introduction() {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-[#334B35] p-8 md:p-16">
+    <div
+      className="flex flex-col md:flex-row items-center p-8 md:p-16"
+      id="about"
+    >
       <div className="relative md:w-1/2">
         <img
           src="/scaled.png"
@@ -18,12 +21,12 @@ export default function Introduction() {
           />
           <hr className="border-l-4 border-l-white" />
           <div className="">
-            <h5 className="text-2xl font-bold text-white">86,700</h5>
+            <h5 className="text-2xl font-bold ">86,700</h5>
             <p>Successfully Project Completed</p>
           </div>
         </div>
       </div>
-      <div className="md:w-1/2 mt-8 md:mt-0 md:ml-16 text-white">
+      <div className="md:w-1/2 mt-8 md:mt-0 md:ml-16 ">
         <div className="text-sm uppercase text-[#A3C293]">Our Introduction</div>
         <h1 className="text-3xl md:text-4xl font-bold mt-2">
           Pure Agriculture and Organic Form

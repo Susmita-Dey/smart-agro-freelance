@@ -14,23 +14,23 @@ function Header() {
     },
     {
       link: "About Us",
-      href: "/about",
+      href: "#about",
     },
     {
       link: "Our Products",
-      href: "/products",
+      href: "#products",
     },
     {
       link: "Services",
-      href: "/services",
+      href: "#services",
     },
     {
       link: "News",
-      href: "/news",
+      href: "#news",
     },
     {
       link: "Contact Us",
-      href: "/contact",
+      href: "#contact",
     },
   ];
 
@@ -40,7 +40,7 @@ function Header() {
   };
 
   return (
-    <div className="bg-[#334B35] py-6 h-full overflow-hidden text-white flex items-center justify-between p-4 relative">
+    <div className=" py-6 h-full overflow-hidden flex items-center justify-between p-4 relative">
       <div>
         <Image
           src="/logo.webp"
@@ -88,7 +88,7 @@ function Header() {
         ))}
       </div>
       <div
-        className={`fixed top-0 right-0 h-full w-2/3 max-w-xs bg-[#334B35] text-white transform ${
+        className={`fixed top-0 right-0 h-full w-2/3 max-w-xs   transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out md:hidden z-50 my-5`}
       >

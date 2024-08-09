@@ -9,7 +9,7 @@ const NewsCard = ({ text, comments, author, image, date }) => {
           <p className="text-black text-center text-sm">{date}</p>
         </div>
       </div>
-      <div className="p-4 bg-[#2D442F] rounded-md text-white">
+      <div className="p-4 bg-[#2D442F] rounded-md ">
         <div className="flex items-start space-x-4">
           <div className="flex items-center space-x-2">
             <span></span>

@@ -15,7 +15,7 @@ function TestimonialCard({ testimonial, className }) {
             alt="testimonial"
           />
         </div>
-        <div className="text-white w-[50%] flex flex-col space-y-5">
+        <div className=" w-[50%] flex flex-col space-y-5">
           <div>
             <p className="text-sm">" {testimonial.text} "</p>
           </div>

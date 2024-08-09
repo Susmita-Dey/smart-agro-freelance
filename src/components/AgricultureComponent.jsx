@@ -3,7 +3,7 @@ import React from "react";
 
 const AgricultureComponent = () => {
   return (
-    <div className="flex flex-col lg:flex-row bg-[#334B35] p-8">
+    <div className="flex flex-col lg:flex-row  p-8">
       <div className="lg:w-1/2 flex justify-center items-center">
         <Image
           src="/020.png"
@@ -14,17 +14,15 @@ const AgricultureComponent = () => {
         />
       </div>
       <div className="lg:w-1/2 p-8 bg-[#6D8C54] rounded-lg shadow-lg flex flex-col justify-center">
-        <div className="text-white font-bold text-xl mb-4">
-          MODERN AGRICULTURE
-        </div>
-        <h2 className="text-3xl font-extrabold text-white mb-6">
+        <div className=" font-bold text-xl mb-4">MODERN AGRICULTURE</div>
+        <h2 className="text-3xl font-extrabold  mb-6">
           Providing High Quality Products
         </h2>
         <div className="mb-6">
           <div className="flex items-center mb-4">
             <div className="p-4 bg-[#6D8C54] rounded-full mr-4">
               <svg
-                className="w-6 h-6 text-white"
+                className="w-6 h-6 "
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -39,10 +37,8 @@ const AgricultureComponent = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-xl font-bold text-white">
-                Our Agriculture Growth
-              </h3>
-              <p className="text-white">
+              <h3 className="text-xl font-bold ">Our Agriculture Growth</h3>
+              <p className="">
                 Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus
                 arcu. Metus elit auctor
               </p>
@@ -51,7 +47,7 @@ const AgricultureComponent = () => {
           <div className="flex items-center">
             <div className="p-4 bg-green-300 rounded-full mr-4">
               <svg
-                className="w-6 h-6 text-white"
+                className="w-6 h-6 "
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -66,10 +62,8 @@ const AgricultureComponent = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-xl font-bold text-white">
-                Making Healthy Foods
-              </h3>
-              <p className="text-white">
+              <h3 className="text-xl font-bold ">Making Healthy Foods</h3>
+              <p className="">
                 Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus
                 arcu. Metus elit auctor interdum scelerisque
               </p>
