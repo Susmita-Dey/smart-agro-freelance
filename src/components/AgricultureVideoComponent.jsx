@@ -4,19 +4,18 @@ const AgricultureVideoComponent = () => {
   return (
     <div
       className="relative w-full h-full bg-cover bg-center"
-      style={{ backgroundImage: "url('')" }}
+      // style={{ backgroundImage: "url('')" }}
     >
       <video
         alt="Agriculture Background"
-        className="w-full h-1/2 object-cover opacity-50"
-        width={1000}
-        height={1000}
+        className="w-full object-cover opacity-50"
+        autoPlay
       >
         <source src="/video.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 flex flex-col justify-center items-start p-8">
         <h2 className="text-3xl lg:text-5xl font-extrabold text-white mb-4">
-          Agriculture Matters to the Future of Bangladesh
+          Agriculture Matters to the Future of India
         </h2>
         <div className="flex items-center">
           <div className="bg-white rounded-full p-3 mr-4">

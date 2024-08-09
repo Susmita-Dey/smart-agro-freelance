@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Introduction() {
   return (
     <div className="flex flex-col md:flex-row items-center bg-[#334B35] p-8 md:p-16">
@@ -7,11 +9,17 @@ export default function Introduction() {
           alt="Agriculture field"
           className="rounded-lg shadow-lg"
         />
-        <div className="absolute bottom-4 left-4 bg-[#A3C293] p-4 rounded-lg shadow-lg flex items-center">
-          <CheckIcon className="text-white w-6 h-6 mr-2" />
-          <div>
-            <div className="text-2xl font-bold text-white">86,700</div>
-            <div className="text-white">Successfully Project Completed</div>
+        <div className="absolute bottom-4 left-4 bg-[#6D8C54] p-4 rounded-lg shadow-lg flex items-center">
+          <Image
+            src="/icon.svg"
+            width={1000}
+            height={1000}
+            className="mr-2 w-16 h-16"
+          />
+          <hr className="border-l-4 border-l-white" />
+          <div className="">
+            <h5 className="text-2xl font-bold text-white">86,700</h5>
+            <p>Successfully Project Completed</p>
           </div>
         </div>
       </div>
